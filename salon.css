@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: red;
+    border: 2px solid black;
+    height: 80px;
+    position: sticky;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.li1, .li2, .li3 {
+    float: left;
+    list-style: none;
+    margin: 6px 9px 10px 0px;
+    padding: 12px 13px;
+    font-size: larger;
+}
+
+.navbar ul li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+.search {
+    padding: 17px 19px;
+    float: left;
+    margin: 0px;
+}
+
+.navbar input {
+    border-radius: 4px;
+    padding: 3px 6px;
+    width: 350px;
+    margin: 0px 0px 0px 50px;
+    border: 2px solid black;
+}
+
+.main {
+    width: 100vw;
+    height: 81vh;
+}
+
+.footer {
+    background-color: red;
+    height: 6.6vh;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 1.25rem;
+}
+
+.img {
+    float: left;
+    height: 49px;
+    margin-top: 8px;
+    width: 91px;
+    margin-right: 9px;
+}
+
+.contain {
+    display: contents;
+}
+
+
+.btn {
+    border: 2px solid black;
+    color: white;
+    padding: 3px 9px 6px 9px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: red;
+    margin-bottom: 3px;
+}
+
+.btn :hover {
+    color: black;
+}
+
+.card {
+    width: max-content;
+}
+
+.button {
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 21px;
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-color: black;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-radius: 7px;
+    color: white;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
